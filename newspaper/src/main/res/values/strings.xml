@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">newspaper</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title1">首届链博会“新”意十足 倡议加强全球供应链开放合作</string>
+    <string name="title2">交通运输领域“捷报频传” 多项工程实实在在惠民生</string>
+    <string name="title3">发展驶入“快车道” 中国正引领构建全球智能网联汽车标准体系</string>
+    <string name="title4">潜力足、空间大 中国物流行业绿色低碳发展“前程似锦”</string>
+    <string name="tab1">首页</string>
+    <string name="tab2">图文</string>
+</resources>
