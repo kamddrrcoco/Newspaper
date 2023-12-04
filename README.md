@@ -1,5 +1,7 @@
 # Newspaper
 
+布局由ViewPager2和fragment组成
+
 界面1 上面是banner轮播图，下面是recycleView文字
 
 ![Screenshot_2023-12-04-18-25-48-44_7692fe4cb8a93cfef9619827127f4cbb](https://github.com/kamddrrcoco/Newspaper/assets/145995925/cf1d8e5e-ee22-4f47-81af-2771263565a8)
