@@ -1,3 +1,3 @@
-package com.android.mytest.data
+package com.android.news.data
 
 data class TextData(val title:String)

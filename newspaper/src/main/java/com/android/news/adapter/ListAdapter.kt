@@ -1,9 +1,9 @@
-package com.android.mytest.adapter
+package com.android.news.adapter
 
 
 import android.widget.TextView
-import com.android.mytest.R
-import com.android.mytest.data.ImageData
+import com.android.news.R
+import com.android.news.data.ImageData
 import com.bumptech.glide.Glide
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.viewholder.BaseViewHolder

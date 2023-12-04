@@ -1,4 +1,4 @@
-package com.android.mytest.fragment
+package com.android.news.fragment
 
 
 import android.os.Bundle
@@ -8,9 +8,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.android.mytest.data.ImageData
-import com.android.mytest.adapter.ListAdapter
-import com.android.mytest.R
+import com.android.news.data.ImageData
+import com.android.news.adapter.ListAdapter
+import com.android.news.R
 
 
 class RecycleFragment : Fragment() {

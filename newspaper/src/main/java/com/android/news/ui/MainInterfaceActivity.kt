@@ -1,20 +1,20 @@
-package com.android.mytest.ui
+package com.android.news.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
-import com.android.mytest.R
-import com.android.mytest.fragment.BannerFragment
-import com.android.mytest.fragment.RecycleFragment
+import com.android.news.R
+import com.android.news.fragment.BannerFragment
+import com.android.news.fragment.RecycleFragment
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 
 
-class Activity : AppCompatActivity() {
+class MainInterfaceActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity)
+        setContentView(R.layout.activity_main_interface)
         val tabLayout = findViewById<TabLayout>(R.id.tl_tab)
         val viewPager = findViewById<ViewPager2>(R.id.vp_view)
         viewPager.adapter = object : FragmentStateAdapter( this) {

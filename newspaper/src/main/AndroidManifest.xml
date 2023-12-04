@@ -11,10 +11,10 @@
         android:usesCleartextTraffic="true">
 
         <activity
-            android:name=".ui.Activity"
+            android:name=".ui.MainInterfaceActivity"
             android:exported="true" />
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".ui.LogOnActivity"
             android:exported="true">
 
             <intent-filter>
@@ -23,7 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.AddActivity" />
+        <activity android:name=".ui.RegisterActivity" />
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
 </manifest>

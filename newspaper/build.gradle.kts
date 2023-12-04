@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.android.mytest"
+    namespace = "com.android.news"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.android.mytest"
+        applicationId = "com.android.news"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

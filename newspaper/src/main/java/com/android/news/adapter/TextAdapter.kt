@@ -1,4 +1,4 @@
-package com.android.mytest.adapter
+package com.android.news.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.android.mytest.R
-import com.android.mytest.adapter.TextAdapter.MyViewHolder
-import com.android.mytest.data.TextData
+import com.android.news.R
+import com.android.news.adapter.TextAdapter.MyViewHolder
+import com.android.news.data.TextData
 
 class TextAdapter(private var context: Context, private var textData: ArrayList<TextData>) :
     RecyclerView.Adapter<MyViewHolder>() {
